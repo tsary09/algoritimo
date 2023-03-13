@@ -1,0 +1,32 @@
+Algoritmo "Ração para gatos"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Felipe Bueno
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Gustavo Rodrigues
+// Data atual  : 13/03/2023
+Var
+// Seção de Declarações das variáveis 
+a,b,c,d,f:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    escreva("Digite o peso do saco de ração em kg: ")
+   leia (a)
+    escreva("Digite a quantidade de raçao dada para o gato em gramas: ")
+   leia (b)
+
+   c <- a * 1000
+   d <- c - b
+   f <- d / 5
+escreva("A quantia que sobrou depois dos 5 dias é: ",f)
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
